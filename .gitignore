@@ -1,0 +1,22 @@
+# Environment variables — סודות, לא עולים ל-git
+.env
+.env.local
+.env.*.local
+
+# .env.example כן עולה (תבנית ללא סודות)
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
